@@ -1,3 +1,5 @@
+version: 0.2
+
 phases:
   install:
     runtime-versions:
@@ -15,4 +17,5 @@ artifacts:
   files:
     - '**/*'
   base-directory: dist
+
   discard-paths: no
